@@ -1,7 +1,0 @@
-public class ParkLocator {
-	
-    public static List < String > country(String country){
-        ParkService.ParksImplPort prkScv = new ParkService.ParksImplPort();
-        return prkScv.byCountry(country);
-    }
-}
